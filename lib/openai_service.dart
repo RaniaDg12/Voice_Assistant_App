@@ -49,7 +49,6 @@ class OpenAIService {
     }
   }
 
-
   Future<String> chatGPTAPI(String prompt) async {
     messages.add({
       'role': 'user',
